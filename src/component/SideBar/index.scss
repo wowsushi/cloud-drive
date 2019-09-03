@@ -1,0 +1,56 @@
+.side-bar {
+  display: grid;
+  grid-template-rows: 0.4fr 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr 1fr;
+  justify-content: center;
+  align-items: center;
+  width: 16rem;
+  height:100vh;
+  background: #4CB5F5;
+}
+
+.user-panel {
+  display: grid;
+  grid-template-areas: 
+  "img name"
+  "img type"
+  "bar bar"
+  "capicity capicity";
+  grid-template-columns: 40% 60%;
+  grid-template-rows: 30% 30% 20% 20%;
+  grid-gap: .3rem .5rem;
+  color: white;
+  justify-content: center;
+  align-items: center;
+
+  .user-img {
+    grid-area: img;
+    border-radius: 50%;
+    width: 3.75rem;
+    height: 3.75rem;
+    object-fit: cover;
+  }
+
+  .user-name {
+    grid-area: name;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .user-type {
+    grid-area: type;
+  }
+
+  .capicity-bar{
+    grid-area: bar;
+    height: .75rem;
+    width: 100%;
+    background: white;
+    border-radius: 1rem;
+  }
+
+  .capicity {
+    grid-area: capicity
+  }
+}
+
+
