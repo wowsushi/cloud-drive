@@ -13,13 +13,28 @@ button {
   }
   
   &.btn-with-bg {
+    position: relative;
     color: #4CB5F5;
     background: white;
     border-radius: 1.5rem;
     padding: .5rem 1.5rem;
+
+    &.clicked {
+      color: white;
+      background: #4CB5F5;
+      box-shadow: 0 0 15px rgba(0,0,0,0.16);
+    }
   }
     
   &.btn-normal {
     color: white;
+  }
+
+  &.btn-border {
+    color: #999999;
+    border: 2px solid #999999;
+    border-radius: 1.5rem;
+    padding: .5rem 2rem;
+    box-shadow: 0 3px 6px 0px #E6E6E6;
   }
 }

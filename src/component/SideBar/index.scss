@@ -1,11 +1,15 @@
 .side-bar {
-  display: grid;
+  display: inline-grid;
   grid-template-rows: 0.4fr 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr 1fr;
   justify-content: center;
   align-items: center;
   width: 16rem;
   height:100vh;
   background: #4CB5F5;
+}
+
+.side-bar-title {
+  text-align: center;
 }
 
 .user-panel {

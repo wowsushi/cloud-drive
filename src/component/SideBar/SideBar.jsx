@@ -4,7 +4,7 @@ import './index.scss'
 
 import logo from '../../assect/img/logo.png'
 import upload from '../../assect/img/upload.svg'
-import addFolder from '../../assect/img/add-folder.svg'
+import myFolder from '../../assect/img/my-folder.svg'
 import star from '../../assect/img/star.svg'
 import sharingContent from '../../assect/img/sharing-content.svg'
 import garbage from '../../assect/img/garbage.svg'
@@ -16,7 +16,6 @@ const SideBar = props => {
   return (
     <aside className="side-bar"> 
       <div className="side-bar-title">
-        <img src="" alt="" />
         <img src={logo} alt=""/>
       </div>
       <Button 
@@ -27,7 +26,7 @@ const SideBar = props => {
       <Button 
         btnName="我的檔案"
         btnClass="btn btn-normal"
-        imgPath={addFolder}
+        imgPath={myFolder}
       />
       <Button 
         btnName="已加星號"

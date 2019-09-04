@@ -1,0 +1,48 @@
+ul {
+  list-style: none;
+  border: 1px #E6E6E6 solid;
+  border-radius: 8px;
+  background: white;
+  text-align: left;
+  padding: 0;
+
+  li {
+    padding: 0 1rem;
+  }
+
+  li:hover {
+    background: #EFEFEF;
+  }
+}
+
+.file-menu {
+  display: block;
+  position: absolute;
+  width: 10rem;
+  right: 0;
+  box-shadow: 0 3px 6px #E6E6E6;
+}
+
+.side-menu {
+  display: block;
+  position: absolute;
+  bottom: -14rem;
+  left: 0;
+  width: 10rem;
+  color: #666666;
+  line-height: 2.5rem;
+  padding: 1rem 0;
+
+  li {
+    padding: .5rem 1rem;
+
+    img {
+      width: 1.3rem;
+      vertical-align: middle;
+    }
+  }
+}
+
+.hide {
+  display: none
+}
