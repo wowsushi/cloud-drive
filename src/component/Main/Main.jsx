@@ -18,6 +18,7 @@ import img from '../../assect/img/img.svg'
 import folder from '../../assect/img/folder.svg'
 
 
+
 class Main extends React.Component {
   constructor(props) {
     super(props)
@@ -33,6 +34,7 @@ class Main extends React.Component {
     }
 
     e.target.closest('td').querySelector('.file-menu').classList.toggle('hide')
+    e.stopPropagation()
   }
 
   render() {
@@ -59,7 +61,7 @@ class Main extends React.Component {
           <tbody>
             <tr>
               <td><img className="icon" src={img} alt="" /></td>
-              <td>走吧！一起用日語去旅行.mp4</td>
+              <td>走吧！一起用日語去旅行.mp4<i className="fas fa-star"></i></td>
               <td>2019/6/10</td>
               <td>1MB</td>
               <td>Betty</td>

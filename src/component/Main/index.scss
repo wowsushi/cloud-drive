@@ -64,10 +64,20 @@
         color: #666666;
         font-weight: 400;
       }
+
+      .fa-star {
+        color: #FFBA00;
+        font-weight: bold;
+      } 
     }
   }
 
   .icon {
     vertical-align:middle;
+  }
+
+  .fa-star {
+    color: #FFBA00;
+    margin-left: .5rem;
   }
 }

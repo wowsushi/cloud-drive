@@ -4,6 +4,7 @@ import uploadFile from '../../assect/img/upload-file.svg'
 import uploadFolder from '../../assect/img/upload-folder.svg'
 import addFolder from '../../assect/img/add-folder.svg'
 
+
 const HoverMenu = ({ type, openModal }) => {
   switch (type) {
     case 'file':

@@ -13,7 +13,7 @@ const openSideMenu = e => {
   e.target.closest('button').querySelector('img').src = 
     (e.target.closest('button').querySelector('img').src.includes('white')) ? 
     upload : uploadWhite  
-
+  e.stopPropagation()
 }
 
 const Button = ({ btnName, btnClass, imgPath, openModal }) => {
