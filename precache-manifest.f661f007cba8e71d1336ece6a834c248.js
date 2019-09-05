@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "36885530d52a993daab82cfcb45df43d",
+    "revision": "567367e6df52afc7d705972c20c65cdc",
     "url": "/cloud-drive/index.html"
   },
   {
-    "revision": "4bbd2f2ee8fd83659309",
-    "url": "/cloud-drive/static/css/main.f6cd1613.chunk.css"
+    "revision": "85dd5a047e793c47b8f1",
+    "url": "/cloud-drive/static/css/main.9cce393c.chunk.css"
   },
   {
-    "revision": "54f5b850bbc5b1e4d4b4",
-    "url": "/cloud-drive/static/js/2.2f9a3ee5.chunk.js"
+    "revision": "f3d5dd2b7a3f3ce0fd75",
+    "url": "/cloud-drive/static/js/2.555fc154.chunk.js"
   },
   {
-    "revision": "4bbd2f2ee8fd83659309",
-    "url": "/cloud-drive/static/js/main.364f3910.chunk.js"
+    "revision": "85dd5a047e793c47b8f1",
+    "url": "/cloud-drive/static/js/main.1d930c8f.chunk.js"
   },
   {
     "revision": "017695f8b003c1300fa2",
