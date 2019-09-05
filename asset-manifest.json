@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/cloud-drive/static/css/main.f6cd1613.chunk.css",
+    "main.js": "/cloud-drive/static/js/main.364f3910.chunk.js",
+    "main.js.map": "/cloud-drive/static/js/main.364f3910.chunk.js.map",
+    "runtime~main.js": "/cloud-drive/static/js/runtime~main.33c92508.js",
+    "runtime~main.js.map": "/cloud-drive/static/js/runtime~main.33c92508.js.map",
+    "static/js/2.2f9a3ee5.chunk.js": "/cloud-drive/static/js/2.2f9a3ee5.chunk.js",
+    "static/js/2.2f9a3ee5.chunk.js.map": "/cloud-drive/static/js/2.2f9a3ee5.chunk.js.map",
+    "index.html": "/cloud-drive/index.html",
+    "precache-manifest.642508e145703ce505ecedbd3f2166c6.js": "/cloud-drive/precache-manifest.642508e145703ce505ecedbd3f2166c6.js",
+    "service-worker.js": "/cloud-drive/service-worker.js",
+    "static/css/main.f6cd1613.chunk.css.map": "/cloud-drive/static/css/main.f6cd1613.chunk.css.map",
+    "static/media/add-folder.svg": "/cloud-drive/static/media/add-folder.8cfc565e.svg",
+    "static/media/cloud.svg": "/cloud-drive/static/media/cloud.52ef67e5.svg",
+    "static/media/doc.svg": "/cloud-drive/static/media/doc.bde6db5e.svg",
+    "static/media/folder.svg": "/cloud-drive/static/media/folder.0ba4cd0c.svg",
+    "static/media/garbage.svg": "/cloud-drive/static/media/garbage.cfdd3a41.svg",
+    "static/media/img.svg": "/cloud-drive/static/media/img.89a38b12.svg",
+    "static/media/mp4.svg": "/cloud-drive/static/media/mp4.ee43af90.svg",
+    "static/media/my-folder.svg": "/cloud-drive/static/media/my-folder.cf5d0d35.svg",
+    "static/media/pdf.svg": "/cloud-drive/static/media/pdf.ee5ba342.svg",
+    "static/media/search.svg": "/cloud-drive/static/media/search.feed0a56.svg",
+    "static/media/sharing-content.svg": "/cloud-drive/static/media/sharing-content.23dbd9d4.svg",
+    "static/media/star.svg": "/cloud-drive/static/media/star.e1950d2e.svg",
+    "static/media/upload-file.svg": "/cloud-drive/static/media/upload-file.60654512.svg",
+    "static/media/upload-folder.svg": "/cloud-drive/static/media/upload-folder.759fdd74.svg",
+    "static/media/upload-white.svg": "/cloud-drive/static/media/upload-white.422b579b.svg",
+    "static/media/upload.svg": "/cloud-drive/static/media/upload.b2533949.svg",
+    "static/media/user.png": "/cloud-drive/static/media/user.4d8aa304.png"
+  }
+}
