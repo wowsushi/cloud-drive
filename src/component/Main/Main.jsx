@@ -27,9 +27,10 @@ class Main extends React.Component {
   }
 
   openFileHoverMenu = e => {
-    console.log(e.target)
     if (!e.target.closest('td') 
-        || !e.target.closest('td').querySelector('.file-menu')) { return }
+      || !e.target.closest('td').querySelector('.file-menu')) { 
+        return 
+    }
 
     e.target.closest('td').querySelector('.file-menu').classList.toggle('hide')
   }

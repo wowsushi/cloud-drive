@@ -1,6 +1,7 @@
 import React from 'react'
 
 import './index.scss'
+import HoverMenu from '../../HoverMenu'
 import icon from '../../../assect/img/search.svg'
 
 class SearchBar extends React.Component {
@@ -15,6 +16,13 @@ class SearchBar extends React.Component {
     this.setState({searchBar: !this.state.searchBar}) 
   } 
 
+  openHoverMenu = e => {
+    console.log(e.target)
+    if (!e.target.closest('.search-bar')) return 
+    e.target.closest('.search-bar').querySelector('.search-menu').classList.toggle('hide')
+
+  }
+
   render() {
     return (
       <div className="search-bar">
@@ -23,7 +31,8 @@ class SearchBar extends React.Component {
           type="text" 
           placeholder="搜尋您的檔案"
         />
-        <span className="triangle"></span>
+        <span className="triangle"  onClick={this.openHoverMenu}></span>
+        <HoverMenu type="search"/>
       </div>
     )
   }
