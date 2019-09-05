@@ -4,7 +4,7 @@ import uploadFile from '../../assect/img/upload-file.svg'
 import uploadFolder from '../../assect/img/upload-folder.svg'
 import addFolder from '../../assect/img/add-folder.svg'
 
-const HoverMenu = ({ type }) => {
+const HoverMenu = ({ type, openModal }) => {
   switch (type) {
     case 'file':
       return (
@@ -22,7 +22,7 @@ const HoverMenu = ({ type }) => {
           <ul className="hover-menu side-menu hide">
             <li><img src={uploadFile} alt=""/>上傳檔案</li>
             <li><img src={uploadFolder} alt=""/>上傳資料夾</li>
-            <li><img src={addFolder} alt=""/>新資料夾</li>
+            <li onClick={openModal}><img src={addFolder} alt=""/>新資料夾</li>
           </ul>   
         )
       case 'search':

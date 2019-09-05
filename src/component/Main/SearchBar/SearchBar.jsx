@@ -17,7 +17,6 @@ class SearchBar extends React.Component {
   } 
 
   openHoverMenu = e => {
-    console.log(e.target)
     if (!e.target.closest('.search-bar')) return 
     e.target.closest('.search-bar').querySelector('.search-menu').classList.toggle('hide')
 

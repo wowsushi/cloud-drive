@@ -16,12 +16,12 @@ const openSideMenu = e => {
 
 }
 
-const Button = ({ btnName, btnClass, imgPath }) => {
+const Button = ({ btnName, btnClass, imgPath, openModal }) => {
   return (
     <button className={btnClass} onClick={ openSideMenu}>
       {imgPath && <img src={imgPath} alt="icon"/>}
       <span>{btnName}</span>
-      {(btnClass.includes('btn-with-bg')) && <HoverMenu type="side"/>}
+      {(btnClass.includes('btn-with-bg')) && <HoverMenu type="side" openModal={openModal}/>}
     </button>
   )
 }

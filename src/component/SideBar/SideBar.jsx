@@ -13,6 +13,8 @@ import user from '../../assect/img/user.png'
 import Button from '../Button' 
 
 const SideBar = props => {
+  const { openModal } = props
+
   return (
     <aside className="side-bar"> 
       <div className="side-bar-title">
@@ -22,6 +24,7 @@ const SideBar = props => {
         btnName="上傳檔案"
         btnClass="btn btn-with-bg"
         imgPath={upload}
+        openModal={openModal}
       />
       <Button 
         btnName="我的檔案"
