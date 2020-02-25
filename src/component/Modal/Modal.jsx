@@ -1,24 +1,27 @@
 import React from 'react'
-import './index.scss'
+import Fader from '../../animations/Fader/fader.jsx'
+import MoveDownUp from '../../animations/MoveDownUp/moveDownUp.jsx'
 
-const closeModal = e => {
-  if (e.target.classList.contains('modal') || e.target.classList.contains('cancel')) {
-    e.currentTarget.classList.toggle('hide')
-  } else {
-    return
-  }
-}
+import './index.scss'
 
 const Modal = props => {
   return (
-    <div className="modal hide" onClick={closeModal}>
-      <div className="modal-content">
-        <h3 className="title">建立新資料夾</h3>
-        <input className="input" type="text" />
-        <button className="cancel">取消</button>
-        <button className="confirm">建立</button>
-      </div>
-    </div>
+    <Fader>
+      {
+        props.visible ? (
+          <div key="modal" className="modal">
+            <div className="modal-content">
+              <h3 className="title">建立新資料夾</h3>
+              <input className="input" type="text" />
+              <button className="cancel" onClick={() => props.onCancelHandler && props.onCancelHandler()}>取消</button>
+              <button className="confirm" onClick={() => props.onOkHandler && props.onOkHandler()}>建立</button>
+            </div>
+            <div className="overlay-boundary" onClick={() => props.onCancelHandler && props.onCancelHandler()}></div>
+          </div>
+        )
+          : ""
+      }
+    </Fader>
   )
 }
 

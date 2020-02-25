@@ -10,44 +10,46 @@ import sharingContent from '../../assect/img/sharing-content.svg'
 import garbage from '../../assect/img/garbage.svg'
 import user from '../../assect/img/user.png'
 
-import Button from '../Button' 
+import Button from '../Button'
+import HoverMenu from '../HoverMenu'
 
 const SideBar = props => {
   const { openModal } = props
 
   return (
-    <aside className="side-bar"> 
+    <aside className="side-bar">
       <div className="side-bar-title">
-        <img src={logo} alt=""/>
+        <img src={logo} alt="" />
       </div>
-      <Button 
+      <Button
         btnName="上傳檔案"
         btnClass="btn btn-with-bg"
         imgPath={upload}
-        openModal={openModal}
-      />
-      <Button 
+      >
+        <HoverMenu type="side" openModal={openModal} />
+      </Button>
+      <Button
         btnName="我的檔案"
         btnClass="btn btn-normal"
         imgPath={myFolder}
       />
-      <Button 
+      <Button
         btnName="已加星號"
         btnClass="btn btn-normal"
         imgPath={star}
       />
-      <Button 
+      <Button
         btnName="檔案共享"
         btnClass="btn btn-normal"
         imgPath={sharingContent}
       />
-      <Button 
+      <Button
         btnName="垃圾桶"
         btnClass="btn btn-normal"
         imgPath={garbage}
       />
       <div className="user-panel">
-        <img className="user-img" src={user} alt="user"/>
+        <img className="user-img" src={user} alt="user" />
         <span className="user-name">Betty</span>
         <span className="user-type">User</span>
         <span className="capicity-bar"></span>
@@ -55,6 +57,6 @@ const SideBar = props => {
       </div>
     </aside>
   )
-} 
+}
 
 export default SideBar
