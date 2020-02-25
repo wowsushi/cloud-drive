@@ -1,6 +1,6 @@
 import React from 'react'
 
-import './index.scss'
+import './style.scss'
 
 import logo from '../../assect/img/logo.png'
 import upload from '../../assect/img/upload.svg'

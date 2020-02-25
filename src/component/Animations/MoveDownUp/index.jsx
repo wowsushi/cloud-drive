@@ -1,6 +1,6 @@
-import React from 'react'
-import { CSSTransitionGroup } from 'react-transition-group';
-import './index.scss'
+import React from './node_modules/react'
+import { CSSTransitionGroup } from './node_modules/react-transition-group';
+import './style.scss'
 const MoveDownUp = ({ children }) => (
     <CSSTransitionGroup
         transitionName='move-down-up'

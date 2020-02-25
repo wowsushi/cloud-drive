@@ -11,10 +11,6 @@ import upload from './assect/img/upload.svg'
 const App = () => {
   const [visible, setVisible] = useState(false)
 
-  const openModal = props => {
-    document.querySelector('.modal').classList.toggle('hide')
-  }
-
   const closeHoverMenu = props => {
     const hoverMenu = document.querySelectorAll('.hover-menu')
 

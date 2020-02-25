@@ -1,9 +1,7 @@
 import React from 'react'
-
-import HoverMenu from '../HoverMenu'
-import './index.scss'
 import uploadWhite from '../../assect/img/upload-white.svg'
 import upload from '../../assect/img/upload.svg'
+import './style.scss'
 
 const openSideMenu = e => {
   if (!e.target.closest('button').querySelector('.side-menu')) return

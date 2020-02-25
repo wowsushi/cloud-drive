@@ -1,8 +1,7 @@
 import React from 'react'
-import Fader from '../../animations/Fader/fader.jsx'
-import MoveDownUp from '../../animations/MoveDownUp/moveDownUp.jsx'
+import Fader from '../Animations/Fader'
 
-import './index.scss'
+import './style.scss'
 
 const Modal = props => {
   return (

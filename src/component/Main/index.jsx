@@ -3,7 +3,7 @@ import React from 'react'
 import SearchBar from './SearchBar'
 import Button from '../Button'
 import HoverMenu from '../HoverMenu'
-import'./index.scss'
+import './style.scss'
 
 import cloud from '../../assect/img/cloud.svg'
 // eslint-disable-next-line
@@ -22,15 +22,15 @@ import folder from '../../assect/img/folder.svg'
 class Main extends React.Component {
   constructor(props) {
     super(props)
-    this.state={
+    this.state = {
 
     }
   }
 
   openFileHoverMenu = e => {
-    if (!e.target.closest('td') 
-      || !e.target.closest('td').querySelector('.file-menu')) { 
-        return 
+    if (!e.target.closest('td')
+      || !e.target.closest('td').querySelector('.file-menu')) {
+      return
     }
 
     e.target.closest('td').querySelector('.file-menu').classList.toggle('hide')
@@ -40,10 +40,10 @@ class Main extends React.Component {
   render() {
     return (
       <section className="main-panel">
-        <SearchBar/>
+        <SearchBar />
         <div className="title-bar">
           <span className="title">我的檔案</span>
-          <Button 
+          <Button
             btnName="看更多"
             btnClass="btn btn-border"
           />
@@ -77,7 +77,7 @@ class Main extends React.Component {
             </tr>
           </tbody>
         </table>
-        <img className="bg-cloud" src={cloud} alt=""/>
+        <img className="bg-cloud" src={cloud} alt="" />
       </section>
     )
   }

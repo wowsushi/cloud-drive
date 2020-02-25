@@ -1,6 +1,7 @@
 import React from 'react'
 import { CSSTransitionGroup } from 'react-transition-group';
-import './index.scss'
+import './style.scss'
+
 const Fader = ({ children }) => (
     <CSSTransitionGroup
         transitionName='fade'
